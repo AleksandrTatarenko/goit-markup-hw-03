@@ -1,0 +1,118 @@
+:root {
+  --text-h: #212121;
+  --text-p: #757575;
+  --text-focus: #2196f3;
+  --text-hero: #ffffff;
+  --background-hero-footer: #2f303a;
+  --text-adress: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*header*/
+.container {
+  box-sizing: content-box;
+  width: 1170px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-nav,
+.nav-list,
+.nav-contact {
+  display: flex;
+}
+.header-nav {
+  height: 31px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: Raleway;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--text-focus);
+}
+.logo-part {
+  color: var(--text-h);
+}
+.link:last-child {
+  margin-right: 50px;
+}
+.link {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-h);
+}
+.link:hover,
+.link:focus {
+  color: var(--text-focus);
+}
+.connection {
+  margin-left: 50px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-p);
+}
+.connection:hover,
+.connection:focus {
+  color: var(--text-focus);
+}
+
+/*footer*/
+.floor {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 215px;
+  padding-left: 215px;
+  background: var(--background-hero-footer);
+}
+.logo-text {
+  color: var(--text-hero);
+}
+address {
+  font-style: normal;
+}
+.location {
+  margin-block-start: 20px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-hero);
+}
+.contacts {
+  margin-top: 9px;
+  display: block;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-adress);
+}
