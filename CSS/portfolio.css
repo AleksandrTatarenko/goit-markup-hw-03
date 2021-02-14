@@ -10,6 +10,9 @@
 .blue {
   color: var(--text-focus);
 }
+body {
+  margin: auto;
+}
 .hidden {
   font-size: 0;
 }
@@ -79,6 +82,7 @@ button:hover {
   color: var(--text-p);
 }
 .product {
+  width: 1170px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: 200px;

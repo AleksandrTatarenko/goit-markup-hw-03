@@ -83,6 +83,8 @@ a {
 
 /*footer*/
 .floor {
+  box-sizing: border-box;
+  width: 1600px;
   padding-top: 60px;
   padding-bottom: 60px;
   padding-right: 215px;

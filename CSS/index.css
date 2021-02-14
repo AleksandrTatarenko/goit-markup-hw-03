@@ -1,3 +1,16 @@
+:root {
+  --text-h: #212121;
+  --text-p: #757575;
+  --text-focus: #2196f3;
+  --text-hero: #ffffff;
+  --background-hero-footer: #2f303a;
+  --text-adress: rgba(255, 255, 255, 0.6);
+  --background-button: #f5f4fa;
+}
+/*header*/
+.main-page {
+  color: var(--text-focus);
+}
 /*Main*/
 .body {
   margin: 0;
@@ -5,6 +18,7 @@
 }
 /*Герой*/
 .hero {
+  width: 1600px;
   background-color: var(--background-hero-footer);
   padding-top: 200px;
   padding-bottom: 210px;
@@ -89,6 +103,9 @@
   margin-right: 30px;
 }
 /*Чем мы занимаемся*/
+.our-job {
+  width: 1600px;
+}
 .business {
   display: block;
   margin-block-start: 0px;
@@ -194,5 +211,6 @@
   color: var(--text-p);
 }
 .our-team {
+  width: 1600px;
   background-color: var(--background-team);
 }
