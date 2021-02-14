@@ -18,6 +18,7 @@
 }
 /*Герой*/
 .hero {
+  box-sizing: border-box;
   width: 1600px;
   background-color: var(--background-hero-footer);
   padding-top: 200px;
