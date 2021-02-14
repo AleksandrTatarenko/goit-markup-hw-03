@@ -4,11 +4,12 @@
   --text-focus: #2196f3;
   --text-hero: #ffffff;
   --background-hero-footer: #2f303a;
+  --background-team: #f5f4fa;
   --text-adress: rgba(255, 255, 255, 0.6);
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--text-hero);
 }
 
 ul {

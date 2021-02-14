@@ -130,7 +130,8 @@
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  margin-top: 188px;
+  margin-top: 94px;
+  padding-top: 94px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -161,6 +162,7 @@
   margin-right: 30px;
 }
 .team-item {
+  background-color: var(--text-hero);
   margin-bottom: 94px;
 }
 .team-part {
@@ -189,5 +191,8 @@
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-p);
+}
+.our-team {
+  background-color: var(--background-team);
 }
