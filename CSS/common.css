@@ -22,14 +22,14 @@ a {
 
 /*header*/
 .container {
-  box-sizing: content-box;
-  width: 1170px;
-  margin-left: 200px;
-  margin-right: 200px;
+  box-sizing: border-box;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   padding-top: 24px;
   padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-nav,
 .nav-list,
@@ -80,16 +80,22 @@ a {
 .connection:focus {
   color: var(--text-focus);
 }
-
+.header-border {
+  border: 1px solid #ececec;
+}
 /*footer*/
-.floor {
+.footer {
+  background: var(--background-hero-footer);
+}
+.footer-container {
   box-sizing: border-box;
-  width: 1600px;
+  width: 1200px;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-right: 215px;
-  padding-left: 215px;
-  background: var(--background-hero-footer);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .logo-text {
   color: var(--text-hero);
@@ -110,8 +116,8 @@ address {
   color: var(--text-hero);
 }
 .contacts {
-  margin-top: 9px;
   display: block;
+  margin-top: 9px;
   font-family: Roboto;
   font-weight: normal;
   font-size: 14px;

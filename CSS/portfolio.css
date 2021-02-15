@@ -24,20 +24,28 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 0px;
 }
-.button .button-item {
+/*Menu*/
+.menu-container {
+  box-sizing: border-box;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.button {
   display: flex;
+  justify-content: center;
 }
 .button .button-item:not(:last-child) {
   margin-right: 8px;
 }
 .button {
-  margin-top: 94px;
   margin-bottom: 50px;
-  margin-right: 495px;
-  margin-left: 495px;
 }
 button {
-  height: 38px;
   outline: 0px;
   padding-left: 22px;
   padding-right: 22px;
@@ -58,6 +66,7 @@ button:hover {
   color: var(--text-hero);
   background-color: var(--text-focus);
 }
+/*Products*/
 .product-name {
   margin-top: 20px;
   margin-left: 24px;
@@ -82,12 +91,6 @@ button:hover {
   color: var(--text-p);
 }
 .product {
-  width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 200px;
-  margin-left: 200px;
-  margin-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
 }

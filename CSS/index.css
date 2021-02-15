@@ -18,13 +18,17 @@
 }
 /*Герой*/
 .hero {
-  box-sizing: border-box;
-  width: 1600px;
   background-color: var(--background-hero-footer);
+}
+.hero-container {
+  box-sizing: border-box;
+  width: 1200px;
   padding-top: 200px;
-  padding-bottom: 210px;
-  padding-left: 452px;
-  padding-right: 452px;
+  padding-bottom: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 .idea {
@@ -55,6 +59,16 @@
   color: var(--text-hero);
 }
 /*Преимущества*/
+.content-advantage {
+  box-sizing: border-box;
+  width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .hidden {
   font-size: 0;
 }
@@ -69,16 +83,8 @@
   margin-inline-end: 0;
   padding-inline-start: 0;
 }
-.content-advantage {
-  box-sizing: border-box;
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: 200px;
-  margin-right: 200px;
-}
+
 .advantage {
-  margin-top: 94px;
   margin-bottom: 0;
   font-family: Roboto;
   font-style: normal;
@@ -91,7 +97,6 @@
 }
 .advantage-text {
   margin-top: 10px;
-  margin-bottom: 94px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -105,7 +110,13 @@
 }
 /*Чем мы занимаемся*/
 .our-job {
-  width: 1600px;
+  box-sizing: border-box;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 94px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .business {
   display: block;
@@ -129,11 +140,6 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 200px;
-  margin-left: 200px;
-  width: 1200px;
 }
 .work-item {
   margin-top: 50px;
@@ -143,13 +149,24 @@
   margin-right: 30px;
 }
 /*Наша команда*/
+.our-team {
+  background-color: var(--background-team);
+}
+.team-container {
+  box-sizing: border-box;
+  width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .team-header {
   margin-block-start: 0px;
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  margin-top: 94px;
-  padding-top: 94px;
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -166,11 +183,6 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 0px;
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: 200px;
-  margin-left: 200px;
   margin-top: 50px;
 }
 .team .team-item .team-part .team-part-position {
@@ -180,8 +192,10 @@
   margin-right: 30px;
 }
 .team-item {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
   background-color: var(--text-hero);
-  margin-bottom: 94px;
 }
 .team-part {
   margin-block-start: 30px;
@@ -210,8 +224,4 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-p);
-}
-.our-team {
-  width: 1600px;
-  background-color: var(--background-team);
 }
