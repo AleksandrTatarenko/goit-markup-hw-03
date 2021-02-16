@@ -197,9 +197,13 @@
   border-radius: 0px 0px 4px 4px;
   background-color: var(--text-hero);
 }
+.item-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-part {
-  margin-block-start: 30px;
-  margin-block-end: 10px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-family: Roboto;
@@ -212,8 +216,8 @@
   color: var(--text-h);
 }
 .team-part-position {
-  margin-block-start: 0px;
-  margin-block-end: 30px;
+  margin-block-start: 10px;
+  margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-family: Roboto;
