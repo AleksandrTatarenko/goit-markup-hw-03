@@ -21,6 +21,10 @@ a {
 }
 
 /*header*/
+.header-border {
+  min-width: 1200px;
+  border-bottom: 1px solid #ececec;
+}
 .container {
   box-sizing: border-box;
   width: 1200px;
@@ -80,18 +84,17 @@ a {
 .connection:focus {
   color: var(--text-focus);
 }
-.header-border {
-  border-bottom: 1px solid #ececec;
-}
 /*footer*/
 .footer {
+  box-sizing: border-box;
+  min-width: 1200px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--background-hero-footer);
 }
 .footer-container {
   box-sizing: border-box;
   width: 1200px;
-  padding-top: 60px;
-  padding-bottom: 60px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;

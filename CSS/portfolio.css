@@ -25,13 +25,17 @@ ul {
   padding-inline-start: 0px;
 }
 /*Menu*/
+.section-menu {
+  box-sizing: border-box;
+  min-width: 1200px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .menu-container {
   box-sizing: border-box;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
   margin-right: auto;
   margin-left: auto;
 }
