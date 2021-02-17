@@ -74,6 +74,10 @@ button:hover {
   padding-left: 24px;
 }
 .product-name {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-family: Roboto;
   font-weight: bold;
   font-size: 18px;
@@ -82,7 +86,10 @@ button:hover {
   color: var(--text-h);
 }
 .product-type {
-  margin-top: 4px;
+  margin-block-start: 4px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-family: Roboto;
   font-weight: normal;
   font-size: 16px;
